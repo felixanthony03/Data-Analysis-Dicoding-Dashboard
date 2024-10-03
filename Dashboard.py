@@ -11,10 +11,10 @@ st.title('Bike Sharing Dashboard')
 st.write('by: Felix Anthony')
 
 #Load data day.csv
-df_day= pd.read_csv('day.csv')
+df_day= pd.read_csv('data/day.csv')
 
 #Load data hour.csv
-df_hour = pd.read_csv('hour.csv')
+df_hour = pd.read_csv('data/hour.csv')
 
 #convert to datetime object
 df_day['dteday'] = pd.to_datetime(df_day['dteday'])
