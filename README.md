@@ -11,10 +11,16 @@ Sumber data: [Bike Sharing Demand](https://www.kaggle.com/c/bike-sharing-demand)
 ## Langkah untuk menjalankan Dashboard
 
 1. Clone repo github
-`git clone https://github.com/felixanthony03/Data-Analysis-Dicoding-Dashboard`
+```
+git clone https://github.com/felixanthony03/Data-Analysis-Dicoding-Dashboard
+```
 
 2. Install requirements.txt
-`pip install requirements.txt`
+```
+pip install requirements.txt
+```
 
 3. Run Streamlit
-`streamlit run Dashboard.py`
+```
+streamlit run Dashboard.py
+```
